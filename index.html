@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profil | M. Ulya Al-Madani</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <h2>Madannn</h2>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="section">
+    <img src="me.png" alt="Foto Profil">
+    <h1>Halo, Saya M. Ulya Al-Madani</h1>
+    <p>Web Developer | UI/UX Designer | Software enggineer</p>
+    <p><i class="fas fa-map-marker-alt"></i> Alalak, Kalimantan Selatan, Indonesia </p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/nndmnn_/?__pwa=1" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Almadani-code" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+  </section>
+
+  <section id="tentang" class="section">
+    <h2>Tentang Saya</h2>
+    <p>
+      Saya seorang mahasiswa Politeknik Hasnur, Sekarang saya semester 2 kelas 2B-1.<br>
+       Saya suka membuat aplikasi dan website yang modern, ringan, dan intuitif.<br>
+       Hobi saya adalah olahraga, bermain game, dan mendengarkan musik.<br>
+        Saya juga suka belajar hal baru, terutama dalam bidang teknologi dan desain.<br>
+        Saya percaya bahwa teknologi dapat membantu kita menyelesaikan masalah sehari-hari dan membuat hidup lebih mudah.
+    </p>
+  </section>
+
+  <section id="keahlian" class="section">
+    <h2>Keahlian</h2>
+    <div class="keahlian-grid">
+      <div class="skill-category">
+        <h3>Frontend</h3>
+        <ul>
+          <li><i class="fab fa-html5"></i> HTML5</li>
+          <li><i class="fab fa-css3-alt"></i> CSS3</li>
+          <li><i class="fab fa-js"></i> JavaScript</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Backend</h3>
+        <ul>
+          <li><i class="fab fa-php"></i> PHP</li>
+          <li><i class="fas fa-database"></i> MySQL</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Tools</h3>
+        <ul>
+          <li><i class="fab fa-git"></i> Git</li>
+          <li><i class="fab fa-figma"></i> Figma</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak" class="section">
+    <h2>Kontak</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Nama</label>
+        <input type="text" id="name" placeholder="Masukkan nama Anda">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Masukkan email Anda">
+      </div>
+      <div class="form-group">
+        <label for="message">Pesan</label>
+        <textarea id="message" placeholder="Tulis pesan Anda"></textarea>
+      </div>
+      <button type="submit" class="btn">Kirim Pesan</button>
+    </form>
+    <div class="contact-info">
+      <p><i class="fas fa-envelope"></i> mahammadalmadani@gmail.com</p>
+      <p><i class="fab fa-whatsapp"></i> +62 831 4186 4392</p>
+      <p><i class="fab fa-instagram"></i> @nndmnn_</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Madan. Dibuat dengan semangat.
+  </footer>
+
+  <button id="toggleBtn" class="floating-btn" title="Toggle Sections">
+    <i class="fas fa-eye"></i>
+  </button>  
+
+  <script src="script.js"></script>
+</body>
+</html>
